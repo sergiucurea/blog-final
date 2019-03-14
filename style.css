@@ -218,7 +218,7 @@ h3 {
     width:24%;
   }
 
-.poster {
+ article.poster {
     width:75%;
     display:block;
     margin-left: auto;
@@ -226,7 +226,7 @@ h3 {
     margin-right: auto;
   }
 
-  .post-min {
+  section.post-min {
 
     display:block;
     width:100%;
@@ -318,7 +318,7 @@ h3 {
     padding:20px;
   }
 
-.poster-footer h1 {
+article.poster .poster-footer h1 {
 
     margin:0;
     text-align:center;
@@ -574,7 +574,7 @@ h3 {
       color:grey;
     }
 
-    .select-custom {
+    select.select-custom {
       
       display: block;
       width:50%;
@@ -614,7 +614,7 @@ h3 {
       width: 100%;
     }
 
-    .bottom-container {
+    section.bottom-container {
 
       display:flex;
       flex-direction: row;
@@ -623,14 +623,14 @@ h3 {
       align-content: stretch;
     }
 
-    .post-bottom-container {
+    section .post-bottom-container {
 
       position:relative;
       width:33.3%;
       padding-top:65%;
     }
 
-    .post-bottom-container .post {
+    section .post-bottom-container .post {
 
       width:95%;
       position: absolute;
@@ -702,7 +702,7 @@ h3 {
       top:0;
     }
 
-    .last-bottom {
+    section.last-bottom {
 
       display:flex;
       flex-direction:row;
