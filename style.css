@@ -384,10 +384,12 @@ h3 {
   }
 
 .img-hover:hover .hovimg {
+
     opacity: 0.6;
   }
 
 .middle {
+
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -399,10 +401,12 @@ h3 {
   }
 
 .img-hover:hover .middle {
+
     opacity: 1;
   }
 
 .text-hover a {
+
     font-size:30px;
     color:white;
     text-align:center;
@@ -412,6 +416,7 @@ h3 {
   }
 
   .post-me {
+
     text-align:center;
     padding:10px;
     font-size:30px;
@@ -432,14 +437,12 @@ h3 {
 
   .profile-pic-container {
 
-   
     position:relative;
     width:60%;
     padding-top:70%;
     margin-left:auto;
     margin-right:auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
   }
 
   img.profile-pic {
@@ -465,6 +468,7 @@ h3 {
   }
 
   ul.no-bullet {
+
       list-style-type: none;
       padding: 20px;
       width:70%;
@@ -483,7 +487,8 @@ h3 {
     
   }
 
-  li.star:before{
+  li.star:before {
+
     content: '';
     display: inline-block;
     height: 20px;
@@ -590,7 +595,7 @@ h3 {
       align-content: space-around;
     }
 
-    .tag-button{
+    .tag-button {
       
       width: intrinsic;           /* Safari/WebKit uses a non-standard name */
       width: -moz-max-content;  
@@ -787,7 +792,6 @@ h3 {
       position:relative;
       width:100%;
       padding-top:50%;
-      
     }
 
     .carousel-item{
@@ -825,77 +829,88 @@ h3 {
     transform:translateY(-50%) rotate(-45deg);
     }
 
-
-/*Select every element*/
 [id^="item"] {
+
     display: none;
   }
 
 .item-1 {
+
   z-index: 2;
   opacity: 1;
   background:url('images/barcelona.jpg');
   background-size:cover;
   }
-.item-2{
+
+.item-2 {
   
   background:url('images/barcelona-related1.jpg');
-   background-size:cover;
+  background-size:cover;
 }
-.item-3{
+.item-3 {
+
   background:url('images/barcelona-related2.jpg');
-   background-size:cover;
+  background-size:cover;
 }
 
 *:target ~ .item-1 {
+
     opacity: 0;
   }
 
   #item-1:target ~ .item-1 ,#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+
     z-index: 2;
     opacity: 1;
   }
 
-  
-
 @media screen and (max-width:1200px){
 
   ul.topnav li {
+
       float:none;
     }
 
   ul.pic-list li {
+
       width:100%;
     } 
 
   ul.topnav li+li {
+
       display:none;
     }
 
   .column.side {
+
       width:100%; 
     }
 
   .column.main {
-      width:100%;
-    }  
-    .bottom-container {
-
-      flex-direction:column;
-    }
-    .post-bottom-container {
 
       width:100%;
-      padding-top:200%;
-      padding-bottom:10%;
-    }
-    .last-bottom {
+    } 
 
-      flex-direction:column;
-    }
-    .last-bottom-item {
+  .bottom-container {
 
-      width:100%;
-    }
+    flex-direction:column;
+  }
+
+  .post-bottom-container {
+
+    width:100%;
+    padding-top:200%;
+    padding-bottom:10%;
+  }
+
+  .last-bottom {
+
+    flex-direction:column;
+  } 
+
+  .last-bottom-item {
+
+    width:100%;
+  }
 
 }
