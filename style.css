@@ -244,7 +244,7 @@ h3 {
     width:100%;
   }
 
-.post-cat {
+.post-cat, .post h1{
     text-align:center;
     padding:5px;
     font-size:20px;
@@ -255,7 +255,7 @@ h3 {
     transition: transform .5s;
   }
 
-.post-title {
+.post h2 {
     text-align:center;
     padding:10px;
     font-size:30px;
@@ -275,11 +275,7 @@ h3 {
     text-align:left;
   }
 
-.post-content {
-    display:block;
-  }
-
-.post-content p {
+.post p {
     font-size:18px;
     font-family:"Courier New", Courier, monospace;
     color:black;
@@ -322,7 +318,9 @@ h3 {
     padding:20px;
   }
 
-.poster-cat {
+.poster-footer h1 {
+
+    margin:0;
     text-align:center;
     padding:20px;
     font-size:30px;
